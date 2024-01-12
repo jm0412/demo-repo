@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/*Image Section*/
+.bg-image{
+    width: 100vw;
+    height: 100vh;
+}
+img.image{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    filter: brightness(65%);
+}
+
+/*Content Section*/
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 35%;
+    width: 800px;
+}
+.logo{
+    width: 40%;
+    object-fit: cover;
+}
+.tag-line{
+    font-size: 30px;
+    color: white;
+}
+.content-sec-1{
+    font-family: Roboto, sans-serif;
+    padding-bottom: 15px;
+}
+
+/*Search-bar*/
+.search-bar{
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.location{
+    padding: 17px 30px;
+    border: none;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.search-query{
+    padding: 18px 85px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
