@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    width: auto;
+    margin: 5px;
+}
+
+/*BG-Section*/
+.bg-image{
+    width: 100%;
+    height: 100vh;
+}
+.image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/*Overlapping Text*/
+.content{
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    padding-bottom: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgba(207, 144, 6, 0.836);
+    font-family: Roboto, sans-serif;
+}
+h1.text{
+    font-size: 45px;
+}
+p.text{
+    font-size: 20px;
+}   
+.btn{
+    background-color: rgb(240, 169, 15);
+    color: white;
+    box-shadow: 3px 3px 5px rgba(207, 144, 6, 0.836);
+    padding: 18px 25px;
+    border: none;
+    border-radius: 45px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
