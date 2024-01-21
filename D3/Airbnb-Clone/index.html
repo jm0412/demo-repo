@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Airbnb resources/icons8-airbnb-48.png" type="image/x-icon">
+    <title>Airbnb | Holiday rentals,cabins, beach houses & more</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/80074bd781.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Main Container-->
+    <div class="Parent">
+        <div class="header-container">
+            <!--Header-Section-->
+            <div class="header">
+            <div class="header-msg">Learn about Guest Favourites, the most loved homes on Airbnb</div>
+            <hr class="separator">
+                <div class="header-main-nav">
+                    <div class="header-nav-logo">
+                        <a href="#" class="logo-airbnb">
+                            <img src="Airbnb resources/icons8-airbnb-48.png" alt="Airbnb" class="logo">
+                            <span class="logo-text">airbnb</span>
+                        </a>
+                    </div>
+                    <div class="header-nav-opt">
+                        <a href="#" class="nav-opt-text">Stays</a>
+                        <a href="#" class="nav-opt-text">Experiences</a>
+                        <a href="#" class="nav-opt-text">Online Experiences</a>
+                    </div>
+                    <div class="header-nav-me">
+                        <a href="#" class="nav-opt-text">Airbnb your home</a>
+                        <a href="#" class="currency&language-settings"><i class="fa-solid fa-globe icon"></i></a>
+                        <div class="profile-menu">
+                            <i class="fa-solid fa-bars"></i>
+                            <i class="fa-regular fa-user"></i>
+                        </div> 
+                    </div>
+                </div>
+                <div class="header-main-search">
+                    <div class="header-search-dest">
+                        <h3 class="query-heading">
+                            Where   
+                        </h3>
+                        <input type="text" placeholder="Search destinations" class="query-text">
+                    </div>
+                    <hr class="separator-search">
+                    <div class="header-search-query">
+                        <div class="query-check-in">
+                            <h3 class="query-heading">
+                                Check in
+                            </h3>
+                            <input type="date" placeholder="Add dates" class="query-text">
+                        </div> 
+                        <hr class="separator">
+                        <div class="query-check-out">
+                            <h3 class="query-heading">
+                                Check out
+                            </h3>
+                            <input type="date" placeholder="Add dates" class="query-text">
+                        </div>
+                        <hr class="separator">
+                        <div class="query-who">
+                            <h3 class="query-heading">
+                                Who
+                            </h3>
+                            <input type="number" 
+                            placeholder="Add guests" 
+                            class="query-text">
+                        </div>
+                    </div>
+                    <div class="Search-icon">
+                        <button type="submit" class="Search-icon"><i class="fa-solid fa-magnifying-glass s-icon"></i></button> 
+                    </div>
+                </div>
+            </div>
+            <hr class="separator">
+            <div class="header-bottom">
+                <div class="header-bottom-scrollopt">
+                    <div class="scroll-icons">
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i1.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i2.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i3.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i4.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i5.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i6.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i7.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i8.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i9.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i10.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                        <div class="categories"> 
+                            <img src="Airbnb resources/i11.jpeg" alt="#" class="category-symbols">
+                            <span class="category-name">CountrySide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons-header-bottom">
+                    <div class="header-bottom-filters">
+                        <a href="#" class="filter"><i class="fa-solid fa-filter icons"></i>Filters</a>
+                    </div>
+                    <div class="header-bottom-beforetax">
+                    Display total before taxes <input type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Content-Section--->
+        <div class="contain-card">
+            <!-- Card-1 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-1.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <div class="guest-fav"> 
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-2 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-2.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav"> 
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>-->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-3 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-3.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav"> 
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>-->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-4 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-4.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav"> 
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>-->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-5 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-5.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav"> 
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>-->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-6 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-6.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-7 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-7.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-8 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-8.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div>
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-9 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-9.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-10 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-12.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-11 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-10.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+            <!-- Card-12 -->
+            <div class="preview-card">
+                <div class="img-preview">
+                    <img src="Airbnb resources/Image-11.jpg" alt="#" class="preview-image" width="15px">
+                </div>
+                <img src="Airbnb resources/svg/heart.svg" alt="#" class="heart-icon">
+                <!-- <div class="guest-fav">
+                    <p class="guest-favourite-p">Guest favourite</p>
+                </div> -->
+                <div class="preview-details">
+                    <div class="flex-one">
+                    <h3 class="preview-name">Name</h3>
+                    <span class="more-info">Address</span>
+                    </div>
+                    <div class="flex-two">
+                    <span class="preview-name price">$ 1249.99</span>
+                    <span class="more-info">night</span>
+                    </div>    
+                </div>           
+            </div>
+    
+        </div>
+        <!-- Footer-Section -->
+        <div class="footer-container">
+            <div class="footer-show-more">
+            <h2 class="show-more-tagline">
+                Continue exploring national park homes
+            </h2>
+            <a href="#" class="show-more-btn">Show more</a>
+            </div>
+            <div class="footer-future-getaway">
+            <div class="footer-heading">Inspiration for future getaways</div>
+            </div>
+            <hr class="separator">
+            <div class="location-list">
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Canmore</h4>
+                    <p class="more-info">Pet-friendly rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Tucson</h4>
+                    <p class="more-info">Apartment rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Anaheim</h4>
+                    <p class="more-info">House rentals</p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Benalmadena</h4>
+                    <p class="more-info">Beach house rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Jasper</h4>
+                    <p class="more-info">Cabin rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Monterey</h4>
+                    <p class="more-info">Bungalow rentals</p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Marbella</h4>
+                    <p class="more-info">Cottage rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Mountain View</h4>
+                    <p class="more-info">Holiday rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Paso Robles</h4>
+                    <p class="more-info">House rentals</p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Mijas</h4>
+                    <p class="more-info">Holiday rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Devonport</h4>
+                    <p class="more-info">Holiday rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Santa Barbara</h4>
+                    <p class="more-info">Pet-friendly rentals</p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Prescott</h4>
+                    <p class="more-info">Pet-friendly rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Mallacoota</h4>
+                    <p class="more-info">Holiday rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Sonoma</h4>
+                    <p class="more-info">Rentals with pools</p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row1">
+                    <h4 class="preview-name">Scottsdale</h4>
+                    <p class="more-info">Apartment rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">Ibiza</h4>
+                    <p class="more-info">Holiday rentals</p>
+                </div>
+                <div class="row1">
+                    <h4 class="preview-name">
+                        <a href="#" class="more-recommendations">Show more</a>
+                    </h4>
+                </div>
+            </div>
+            </div>
+            <hr class="separator">
+            <div class="footer-links">
+            <div class="col">
+                <h4 class="footer-links-headings">Support</h4>
+                <a href="#" class="footer-link-text">Help Centre</a>
+                <a href="#" class="footer-link-text">AirCover</a>
+                <a href="#" class="footer-link-text">Anti-discrimination</a>
+                <a href="#" class="footer-link-text">Disability support</a>
+                <a href="#" class="footer-link-text">Cancellation options</a>
+                <a href="#" class="footer-link-text">Report neighbourhood concern</a>
+            </div>
+            <div class="col">
+                <h4 class="footer-links-headings">Hosting</h4>
+                <a href="#" class="footer-link-text">Airbnb your home</a>
+                <a href="#" class="footer-link-text">AirCover for Hosts</a>
+                <a href="#" class="footer-link-text">Hosting resources</a>
+                <a href="#" class="footer-link-text">Community forum</a>
+                <a href="#" class="footer-link-text">Hosting responsibly</a>
+            </div>
+            <div class="col">
+                <h4 class="footer-links-headings">Airbnb</h4>
+                <a href="#" class="footer-link-text">Newsroom</a>
+                <a href="#" class="footer-link-text">New features</a>
+                <a href="#" class="footer-link-text">Careers</a>
+                <a href="#" class="footer-link-text">Investors</a>
+                <a href="#" class="footer-link-text">Airbnb.org emergency stays</a>
+            </div>
+            </div>
+            <hr class="separator">
+            <div class="footer-end">
+            <div class="footer-end-left">
+                <p class="copyright">&#169 2024 Airbnb, Inc.</p>
+                <a href="#" class="footer-end-link">Privacy</a>
+                .
+                <a href="#" class="footer-end-link">Terms</a>
+                .
+                <a href="#" class="footer-end-link">Sitemap</a>
+                .
+                <a href="#" class="footer-end-link">Company details</a>
+            </div>
+            <div class="footer-end-right">
+                <span class="language-footer-selector"><i class="fa-solid fa-globe footer-icon"></i> English(IN)</span>
+                <span class="currency-footer-selector"><i class="fa-solid fa-indian-rupee-sign footer-icon"></i> INR</span>
+                <i class="fa-brands fa-square-facebook footer-icon"></i>
+                <i class="fa-brands fa-square-x-twitter footer-icon"></i>
+                <i class="fa-brands fa-square-instagram footer-icon"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
